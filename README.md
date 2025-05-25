@@ -1,446 +1,439 @@
-![SMART+ER 프롬프트 배경](images/wall_bg.png)
+![Background](images/new_bg.png)
 # SMART+ER PROMPT
-모두의AI에서 제공하는 더 똑똑한 SMART+ER 프롬프트 템플릿
+A smarter SMART+ER prompt template provided by Everyone's AI
 ---
-## 1. SMARTER 프롬프트 템플릿의 탄생 배경
+## 1. Background of the SMARTER Prompt Template
 
-> **Q: "AI에게 제대로 된 요구/지시/질문을 하기 위해서 프롬프트 엔지니어링을 배워야 하나요?"**
+> **Q: "Do I need to learn prompt engineering to make proper requests/instructions/questions to AI?"**
 
-> **A: "자동차 운전을 하기 위해서 엔진 구조를 공부하지 않습니다. 운전만 잘하는 법을 배우면 되듯이 AI에게 지시를 제대로 하기 위해서는 프롬프트 엔지니어링 보다는 AI대화의 기술만 익히면 됩니다"**
+> **A: "You don't study engine structures to drive a car. Just as you learn how to drive well, to give proper instructions to AI, you only need to learn the art of AI conversation rather than prompt engineering."**
 
-흔히 이야기 하는 생성형AI 초거대 언어 모델(LLM-Large Language Model)의 발전으로 AI의 능력이 비약적으로 향상되었지만, 이러한 능력을 100% 활용하기 위해서는 "**명확하고 구체적인 지시**"가 필요합니다. 
+With the advancement of generative AI's large language models (LLM-Large Language Model), AI's capabilities have improved dramatically. However, to fully utilize these capabilities, "**clear and specific instructions**" are necessary.
 
-> **일반 사용자들이 겪는 프롬프트 작성의 어려움 → "도대체 어떻게 이야기를 해줘야 내 의도를 정확하게 이해를 할 거니?"**
+> **The difficulty users face in writing prompts → "How exactly should I phrase it so that you understand my intention correctly?"**
 
-모두의 AI에서 지난 1년간 진행한 **"챗GPT와 한달살기", "프롬프트의 정석", "나만의 AI직원 만들기"** 온라인/오프라인 강의를 **수강한 분들의 피드백을 분석**한 결과, 다음과 같은 주요 문제점들이 발견되었습니다:
+Based on feedback analysis from participants of **"Living with ChatGPT for a Month," "The Art of Prompting," and "Creating My Own AI Employee"** online/offline courses conducted by Everyone's AI over the past year, the following major issues were identified:
 
-1. **모호한 지시사항**: "좋은 아이디어 좀 줘봐"와 같은 불명확한 요청으로 인해 AI가 제대로 된 답변을 하지 못하는 경우가 많았습니다.
-2. **맥락 부족**: AI에게 필요한 배경 정보나 상황 설명이 부족하여, AI가 사용자의 의도를 제대로 파악하지 못하는 경우가 있었습니다.
-3. **과도한 정보**: 반대로 너무 많은 정보를 한꺼번에 제공하여 AI가 핵심을 파악하지 못하는 경우도 있었습니다.
-4. **단계적 지시 부족**: 복잡한 작업을 요청할 때 단계별 지시가 없어 AI가 혼란스러워하는 경우가 있었습니다.
-5. **피드백 루프 부재**: AI의 답변을 개선하기 위한 효과적인 피드백 방법을 모르는 경우가 많았습니다.
+1. **Vague Instructions**: Many instances where AI could not provide proper answers due to unclear requests like "Give me a good idea."
+2. **Lack of Context**: AI sometimes fails to grasp the user's intent due to insufficient background information or situational explanation.
+3. **Excessive Information**: Conversely, providing too much information at once can prevent AI from grasping the core.
+4. **Lack of Step-by-Step Instructions**: When requesting complex tasks, the absence of step-by-step instructions can confuse AI.
+5. **Absence of Feedback Loop**: Many users are unaware of effective feedback methods to improve AI's responses.
 
-이러한 문제점들로 인해 **사용자들은 원하는 결과를 얻지 못하고, 반복적으로 프롬프트를 추가 지시하면서 3시간 80회 리밋에 도달** 하는 상황들이 반복되어지곤 했습니다.
+Due to these issues, **users often fail to get the desired results and repeatedly reach the 3-hour 80-prompt limit by adding additional instructions.**
 
-이러한 문제를 해결하기 위해서 **SMART+ER 프롬프트 템플릿** 제작하게 되었습니다. 이 템플릿은 **일반 사용자들도 쉽게 효과적인 프롬프트를 작성할 수 있도록 돕는 구조화된 가이드라인**입니다. **SMART+ER 템플릿은 프롬프트 엔지니어링의 핵심 원칙들을 체계화**하여, 누구나 AI와 더 효과적으로 소통할 수 있도록 설계되었습니다.
-
-
----
-
-# 2. SMART+ER 프롬프트란?
-
-## 정의와 목적
-
-SMART+ER 프롬프트의 주요 특징과 목적은 다음과 같습니다:
-
-1. **사용자 친화적 구조**: 일반 사용자도 쉽게 이해하고 적용할 수 있는 체계적인 구조를 제공합니다.
-2. **AI 성능 최적화**: AI 모델의 능력을 최대한 활용할 수 있도록 설계되었습니다.
-3. **다양한 LLM 지원**: ChatGPT, Claude, Gemini 등 다양한 대규모 언어 모델(LLM)에 적용 가능합니다.
-4. **반복 수정 최소화**: 명확한 지시와 구체적인 요구사항 제시로 **One Shot Prompting(한번에 끝내는 지시사항)** 목표로 합니다
-5. **맥락 이해 향상**: AI가 사용자의 의도와 상황을 정확히 파악할 수 있도록 돕습니다.
-
-## SMART+ER 약어 풀이
-
-SMARTER는 템플릿의 핵심 구성 요소를 나타내는 약어입니다:
-
-### **필수 요소 5가지**
-
-- **S**: Situation (상황) - 현재 **상황**이나 **배경**을 설명합니다.
-- **M**: Mission (목표) - 달성하고자 하는 **목표**를 명시합니다.
-- **A**: Action Steps (단계별 수행) - AI가 **수행해야 할 단계**를 나열합니다.
-- **R**: Result (결과) - 원하는 **결과물의 형식**을 지정합니다.
-- **T**: Tone&Style (톤과 스타일) - 생셩결과에 대한 **특별한 요구사항**이나 **스타일을 지정**합니다.
-
-### **추가 요소 2가지**
-
-- **E**: Example (예시) - **AI의 이해를 돕기 위한 예시**를 제공합니다.
-- **R**: Resource (자료) - AI가 생성 작업에 필요한 첨부된 지식 데이터의 **추가** **정보나 자료**를 **상세 설명**합니다.
-
-이 템플릿은 프롬프트 작성을 체계화하여, 사용자가 자신의 요구사항을 명확하게 전달하고 AI로부터 원하는 결과를 얻을 수 있도록 도와줍니다.
+To address these issues, the **SMART+ER Prompt Template** was created. This template is a **structured guideline designed to help even general users easily write effective prompts.** The **SMART+ER template systematizes the core principles of prompt engineering** to enable anyone to communicate more effectively with AI.
 
 ---
 
-# 3. SMART+ER 템플릿의 구성 요소
+# 2. What is the SMART+ER Prompt?
 
-## S: Situation (상황)
+## Definition and Purpose
 
-- **목적**: AI에게 현재 상황이나 배경을 제공합니다.
-- **작성 방법**: AI는 여러분의 상황을 전혀 알지 못합니다, 따라서 간결하면서도 충분한 맥락을 제공하세요.
-- **예시**:
-    
-    ```markdown
-    ## S(상황)
-    우리 회사는 환경 친화적인 제품 라인을 출시하려고 합니다. 현재 플라스틱 사용량을 줄이는 것이 주요 과제입니다.
-    ```
-    
+The main features and purposes of the SMART+ER prompt are as follows:
 
-## M: Mission (목표)
+1. **User-Friendly Structure**: Provides a systematic structure that even general users can easily understand and apply.
+2. **AI Performance Optimization**: Designed to maximize the capabilities of AI models.
+3. **Support for Various LLMs**: Applicable to various large language models (LLM) such as ChatGPT, Claude, Gemini, etc.
+4. **Minimization of Revisions**: Aims for **One Shot Prompting (instructions that end in one go)** by presenting clear instructions and specific requirements.
+5. **Improved Context Understanding**: Helps AI accurately grasp the user's intent and situation.
 
-- **목적**: 여러분이 이 프롬프트를 통해서 달성하고자 하는 구체적인 목표를 명시합니다.
-- **작성 방법**: 명확하고 측정 가능한 목표를 설정하세요. (기간, 수치, 범위, 국가, 대상등 명확하게 설명)
-- **예시**:
-    
-    ```markdown
-    ## M(목표)
-    6개월 내에 제품 포장의 플라스틱 사용량을 50% 줄이는 전략을 수립하고자 합니다.
-    ```
-    
+## SMART+ER Acronym Explanation
 
-## A: Action Steps (단계별 수행)
+SMARTER represents the core components of the template:
 
-- **목적**: AI가 수행해야 할 구체적인 단계를 나열합니다.
-- **작성 방법**:
-    - 순서대로 명확한 지시사항을 제공하세요.
-    - 필요에 따라 **“중요: 각 단계가 완료가 되면 사용자에게 결과를 확인을 받고 다음단계 진행 여부 확인해야 합니다.”** 
-    -> 이 내용을 추가하면 내용이 풍부하게 생성(Max Output Token 최대 사용)이되고 각 단계별 결과물이 생성이 되었을 때 각 단계 내용만 수정 요청하면 대화창에 생성되는 텍스트를 절약이 되면서 Context window Token 낭비를 줄일 수가 있습니다. 
+### **5 Essential Elements**
 
-- **예시**:
-    
-    ```markdown
-    ## A(단계별 수행)
-    "중요: 각 단계가 완료가 되면 사용자에게 결과를 확인을 받고 다음단계 진행 여부 확인해야 합니다"
-    1. 현재 제품 포장의 플라스틱 사용량을 분석하세요.
-    2. 플라스틱 대체 가능한 친환경 소재 3가지를 제안하세요.
-    3. 각 대체 소재의 장단점을 비교 분석하세요.
-    4. 선택한 소재로 전환 시 예상되는 비용과 시간을 계산하세요.
-    5. 6개월간의 단계별 전환 계획을 수립하세요.
-    ```
-    
+- **S**: Situation - Describes the current **situation** or **background**.
+- **M**: Mission - Specifies the **goal** to be achieved.
+- **A**: Action Steps - Lists the **steps** AI needs to perform.
+- **R**: Result - Specifies the **format of the desired outcome**.
+- **T**: Tone & Style - Specifies any **special requirements** or **style for the generated result**.
 
-## R: Result (결과)
+### **2 Additional Elements**
 
-- **목적**: 원하는 결과물의 형식과 내용을 지정합니다.
-- **작성 방법**: 구체적인 형식, 길이, 포함해야 할 요소 등을 명시하세요.
-- **예시**:
-    
-    ```markdown
-    ## R(결과물)
-    다음 요소를 포함한 5페이지 분량의 보고서를 작성해주세요:
-    - 현황 분석
-    - 대체 소재 비교표
-    - 비용 및 시간 추정치
-    - 6개월 전환 계획 타임라인
-    - 예상되는 환경적 영향
-    ```
-    
+- **E**: Example - Provides **examples to aid AI's understanding**.
+- **R**: Resource - **Details additional information or resources** needed for AI's generation task.
 
-## T: Tone & Style (톤과 스타일)
-
-- **목적**: 특별한 요구사항이나 선호하는 스타일을 지정합니다.
-- **작성 방법**: 톤, 형식, 특정 제약사항 등을 명시하세요.
-- **예시**:
-    
-    ```markdown
-    ## T(톤과스타일)
-    - 보고서는 경영진이 이해하기 쉬운 비전문적 용어를 사용해주세요.
-    - 각 섹션에 요약 bullet point를 포함해주세요.
-    - 환경 관련 통계는 신뢰할 수 있는 출처를 인용해주세요.
-    ```
-    
-
-## E: Example (예시)
-
-- **목적**: 참고할 만한 예시나 템플릿을 제공합니다.
-- **작성 방법**: 유사한 프로젝트나 원하는 결과물의 예시를 제시하세요.
-- **예시**:
-    
-    ```markdown
-    ## E(예시참조)
-    다음 링크의 보고서 형식을 참고해주세요: 
-    - [환경 영향 평가 보고서 예시]
-    - "내가 작성한 문체로 동일하게 작성해주세요"
-    ```
-
-## R: Resource (자료)
-
-- **목적**: 작업에 필요한 추가 정보나 자료를 제공합니다.
-- **작성 방법**: 관련 데이터, 링크, 참고 문서 등을 제시하세요.
-- **예시**:
-    
-    ```markdown
-    ## R(자료참고)
-    - 현재 제품 포장 명세서: [링크]
-    - 친환경 포장 소재 시장 조사 보고서: [첨부 파일]
-    - 회사 환경 정책 문서: [링크]
-    ```
-    
+This template systematizes prompt writing, helping users clearly convey their requirements and obtain the desired results from AI.
 
 ---
 
-# 4. 각 구성 요소 상세 설명 및 작성 방법
+# 3. Components of the SMART+ER Template
 
-## S: Situation (상황)
+## S: Situation
 
-### 상세 설명
+- **Purpose**: Provides the current situation or background to AI.
+- **How to Write**: AI knows nothing about your situation, so provide concise yet sufficient context.
+- **Example**:
 
-Situation은 AI에게 현재 상황이나 배경을 제공하는 부분입니다. 이는 AI가 사용자의 전체적인 맥락을 이해하고 적절한 답변을 생성하도록 합니다.
+    ```markdown
+    ## S(Situation)
+    Our company is planning to launch an eco-friendly product line. Reducing plastic usage is a major task.
+    ```
 
-### 작성 방법
+## M: Mission
 
-- 간결하면서도 필수적인 정보를 모두 포함하세요.
-- 5W1H (Who, What, When, Where, Why, How) 질문을 고려하여 작성하세요.
-- 업계 특정 용어나 새로운 용어의 배경 지식이 필요한 경우 간단히 설명해주세요. 예: MCP(Model Context Protocol)
+- **Purpose**: Clearly state the specific goal you want to achieve with this prompt.
+- **How to Write**: Set clear and measurable goals (e.g., time frame, numbers, scope, country, target).
+- **Example**:
 
-### 주의사항
+    ```markdown
+    ## M(Mission)
+    We aim to develop a strategy to reduce plastic usage in product packaging by 50% within 6 months.
+    ```
 
-- 너무 많은 정보로 AI를 혼란스럽게 하지 마세요.
-- 불필요한 개인 정보는 포함하지 마세요.
+## A: Action Steps
 
-### 예시
+- **Purpose**: List the specific steps AI needs to perform.
+- **How to Write**:
+    - Provide clear instructions in order.
+    - If necessary, add: **"Important: After each step is completed, the user should confirm the result and decide whether to proceed to the next step."** 
+    -> Adding this content enriches the output (maximizing Max Output Token usage) and allows for text savings in the conversation window by requesting modifications only for each step's content.
+
+- **Example**:
+
+    ```markdown
+    ## A(Action Steps)
+    "Important: After each step is completed, the user should confirm the result and decide whether to proceed to the next step."
+    1. Analyze the current plastic usage in product packaging.
+    2. Propose three eco-friendly materials that can replace plastic.
+    3. Compare and analyze the pros and cons of each alternative material.
+    4. Calculate the expected cost and time for transitioning to the selected material.
+    5. Develop a step-by-step transition plan for 6 months.
+    ```
+
+## R: Result
+
+- **Purpose**: Specify the format and content of the desired outcome.
+- **How to Write**: Specify the format, length, and elements to be included.
+- **Example**:
+
+    ```markdown
+    ## R(Result)
+    Please write a 5-page report including the following elements:
+    - Current situation analysis
+    - Comparison table of alternative materials
+    - Cost and time estimates
+    - 6-month transition plan timeline
+    - Expected environmental impact
+    ```
+
+## T: Tone & Style
+
+- **Purpose**: Specify any special requirements or preferred style.
+- **How to Write**: Specify tone, format, and any specific constraints.
+- **Example**:
+
+    ```markdown
+    ## T(Tone & Style)
+    - Use non-technical terms that are easy for executives to understand in the report.
+    - Include summary bullet points in each section.
+    - Cite reliable sources for environmental statistics.
+    ```
+
+## E: Example
+
+- **Purpose**: Provide examples or templates for reference.
+- **How to Write**: Present examples of similar projects or desired outcomes.
+- **Example**:
+
+    ```markdown
+    ## E(Example Reference)
+    Please refer to the report format in the following link: 
+    - [Example of Environmental Impact Assessment Report]
+    - "Please write in the same style as I have written."
+    ```
+
+## R: Resource
+
+- **Purpose**: Provide additional information or resources needed for the task.
+- **How to Write**: Present related data, links, and reference documents.
+- **Example**:
+
+    ```markdown
+    ## R(Resource Reference)
+    - Current product packaging specifications: [Link]
+    - Market research report on eco-friendly packaging materials: [Attached file]
+    - Company environmental policy document: [Link]
+    ```
+
+---
+
+# 4. Detailed Explanation and Writing Method for Each Component
+
+## S: Situation
+
+### Detailed Explanation
+
+The Situation section provides the current situation or background to AI. This helps AI understand the overall context and generate appropriate responses.
+
+### How to Write
+
+- Include all essential information concisely.
+- Consider the 5W1H (Who, What, When, Where, Why, How) questions when writing.
+- If industry-specific terms or new terms require background knowledge, provide a brief explanation. Example: MCP (Model Context Protocol)
+
+### Caution
+
+- Avoid overwhelming AI with too much information.
+- Do not include unnecessary personal information.
+
+### Example
 
 ```markdown
-## S(상황)
-- 우리 회사는 중소기업 패션 브랜드 OOO입니다. 최근 Z세대 고객층의 이탈이 심해지고 있어 우려됩니다.
-- 지난 2024년 3/4분기 대비 2025년 1월 Z세대 고객의 구매율이 85%에서 -30% 감소했으며, 소셜미디어 참여도도 60%에서 -20% 하락했습니다. 
-- 2025년 마케팅 예산은 연간 5억 원이며, 디지털 마케팅 전문가가 부족한 상황입니다.
+## S(Situation)
+- Our company is a small to medium-sized fashion brand OOO. We are concerned about the increasing attrition of Gen Z customers.
+- Compared to the third quarter of 2024, the purchase rate of Gen Z customers decreased from 85% to -30% in January 2025, and social media engagement dropped from 60% to -20%.
+- The marketing budget for 2025 is 500 million KRW annually, and we lack digital marketing experts.
 ```
 
-## M: Mission (목표)
+## M: Mission
 
-### 상세 설명
+### Detailed Explanation
 
-Mission은 달성하고자 하는 구체적인 목표를 명시하는 부분입니다. 이는 AI가 제안하는 솔루션의 방향을 결정하는 데 중요합니다.
+The Mission section specifies the specific goal you want to achieve. It is crucial for determining the direction of the solutions AI proposes.
 
-### 작성 방법
+### How to Write
 
-- 가능한 한 수치화된 목표를 제시하세요.
-- 단기 목표와 장기 목표를 구분하여 제시할 수 있습니다.
+- Present quantifiable goals whenever possible.
+- You can distinguish between short-term and long-term goals.
 
-### 주의사항
+### Caution
 
-- 너무 광범위하거나 모호한 목표는 피하세요.
-- 현실적으로 달성 가능한 목표를 설정하세요.
+- Avoid goals that are too broad or vague.
+- Set realistic and achievable goals.
 
-### 예시
+### Example
 
 ```markdown
-## M(목표)
-- 향후 6개월 내에 Z세대 고객의 구매율을 현재 수준에서 20% 증가시킵니다.
-- 3개월 내에 소셜미디어 참여도를 50% 향상시킵니다.
-- 연간 마케팅 예산을 10% 이상 절감하면서 위 목표를 달성합니다.
+## M(Mission)
+- Increase the purchase rate of Gen Z customers by 20% from the current level within the next 6 months.
+- Improve social media engagement by 50% within 3 months.
+- Achieve the above goals while reducing the annual marketing budget by more than 10%.
 ```
 
-## A: Action Steps (단계별 수행)
+## A: Action Steps
 
-### 상세 설명
+### Detailed Explanation
 
-Action Steps는 AI가 수행해야 할 구체적인 단계를 나열하는 부분입니다. 이는 AI가 체계적으로 작업을 수행하도록 안내합니다.
+The Action Steps section lists the specific steps AI needs to perform. It guides AI to work systematically.
 
-### 작성 방법
+### How to Write
 
-- 순서대로 명확한 지시사항을 제공하세요.
-- 각 단계는 구체적이고 실행 가능해야 합니다.
-- 필요한 경우 하위 단계로 세분화할 수 있습니다.
-- 필요에 따라 **“중요: 각 단계가 완료가 되면 사용자에게 결과를 확인을 받고 다음단계 진행 여부 확인해야 합니다”**
+- Provide clear instructions in order.
+- Each step should be specific and executable.
+- You can subdivide into sub-steps if necessary.
+- If necessary, add: **"Important: After each step is completed, the user should confirm the result and decide whether to proceed to the next step."**
 
-### 주의사항
+### Caution
 
-- 너무 많은 단계를 한 번에 제시하지 마세요. 필요하다면 여러 단계로 나누어 요청하세요.
-- 각 단계 사이의 논리적 연결성을 확인하세요.
+- Do not present too many steps at once. If necessary, divide them into multiple requests.
+- Ensure logical connections between each step.
 
-### 예시
+### Example
 
 ```markdown
-## A(단계별 수행)
-“중요: 각 단계가 완료가 되면 사용자에게 결과를 확인을 받고 다음단계 진행 여부 확인해야 합니다.”
-1. 첨부한 자료(Deep Research자료)를 토대로 Z세대의 최신 패션 트렌드와 소비 행동을 분석하세요.
-2. 우리 브랜드의 현재 마케팅 전략과 Z세대 트렌드 간의 격차를 파악하세요.
-3. Z세대 타겟 디지털 마케팅 전략을 3가지 제안하세요. 각 전략은 다음을 포함해야 합니다:
-   a. 주요 소셜미디어 플랫폼 활용 방안
-   b. 인플루언서 마케팅 전략
-   c. 예상 비용과 ROI
-4. 제안된 전략 중 가장 비용 효율적인 방안을 선정하고, 그 이유를 설명하세요.
-5. 선정된 전략의 2025년 하반기 실행 계획을 수립하세요.
+## A(Action Steps)
+"Important: After each step is completed, the user should confirm the result and decide whether to proceed to the next step."
+1. Analyze the latest fashion trends and consumer behavior of Gen Z based on the attached materials (Deep Research materials).
+2. Identify the gap between our brand's current marketing strategy and Gen Z trends.
+3. Propose three digital marketing strategies targeting Gen Z. Each strategy should include:
+   a. Utilization plan for major social media platforms
+   b. Influencer marketing strategy
+   c. Estimated costs and ROI
+4. Select the most cost-effective strategy and explain the reason.
+5. Develop an implementation plan for the second half of 2025 for the selected strategy.
 ```
 
-## R: Result (결과)
+## R: Result
 
-### 상세 설명
+### Detailed Explanation
 
-Result는 AI에게 원하는 결과물의 형식과 내용을 명확히 지정하는 부분입니다. 이를 통해 기대하는 출력의 구조와 세부 사항을 명확히 할 수 있습니다.
+The Result section clearly specifies the format and content of the desired outcome. It helps clarify the structure and details of the expected output.
 
-### 작성 방법
+### How to Write
 
-- 원하는 결과물의 형식(예: 보고서, 목록, 스크립트 등)을 명시하세요.
-- 결과물에 포함되어야 할 주요 요소나 섹션을 나열하세요.
-- 가능한 경우, 원하는 길이나 세부 수준을 지정하세요.
+- Specify the format of the desired outcome (e.g., report, list, script).
+- List the key elements or sections that should be included in the outcome.
+- If possible, specify the desired length or level of detail.
 
-### 주의사항
+### Caution
 
-- 너무 엄격하게 규정하여 AI의 창의성을 제한하지 않도록 주의하세요.
-- 결과물의 용도나 대상 독자를 고려하여 적절한 형식을 선택하세요.
+- Avoid being too strict, which may limit AI's creativity.
+- Choose an appropriate format considering the purpose or target audience of the outcome.
 
-### 예시
+### Example
 
 ```markdown
-## R(결과물)
-다음 요소를 포함한 5페이지 분량의 마케팅 전략 보고서를 작성해주세요:
-1. 현재 시장 상황 요약 (1페이지, 3문단, 각문단 500자 이상)
-2. 타겟 고객 분석 (1페이지, 3문단, 각문단 500자 이상)
-3. 3가지 주요 마케팅 전략 제안 (각 전략당 0.5페이지, 2문단, 각문단 200자 이상)
-4. 예상 비용 및 ROI 분석 (1페이지, 3문단, 각문단 500자 이상)
-5. 6개월 실행 계획 타임라인 (0.5페이지, 2문단, 각문단 300자 이상)
-6. 요약 및 결론 (0.5페이지, 3문단, 각문단 100자 이상)
+## R(Result)
+Please write a 5-page marketing strategy report including the following elements:
+1. Summary of the current market situation (1 page, 3 paragraphs, each paragraph over 500 characters)
+2. Target customer analysis (1 page, 3 paragraphs, each paragraph over 500 characters)
+3. Proposal of three major marketing strategies (0.5 pages per strategy, 2 paragraphs, each paragraph over 200 characters)
+4. Cost and ROI analysis (1 page, 3 paragraphs, each paragraph over 500 characters)
+5. 6-month implementation plan timeline (0.5 pages, 2 paragraphs, each paragraph over 300 characters)
+6. Summary and conclusion (0.5 pages, 3 paragraphs, each paragraph over 100 characters)
 ```
 
-## T: TONE & STYLE (톤앤 스타일)
+## T: Tone & Style
 
-### 상세 설명
+### Detailed Explanation
 
-TONE & STYLE은 결과물을 특정 요구사항이나 선호에 맞게 조정하도록 AI에게 지시하는 부분입니다. 이를 통해 더욱 맞춤화된 결과를 얻을 수 있습니다.
+The Tone & Style section instructs AI to adjust the outcome to specific requirements or preferences. This allows for more customized results.
 
-### 작성 방법
+### How to Write
 
-- 특정 스타일, 톤, 또는 형식에 대한 선호를 명시하세요.
-- 포함하거나 제외해야 할 특정 요소나 주제를 언급하세요.
-- 대상 독자나 사용 맥락을 고려한 맞춤화 요청을 하세요.
+- Specify preferences for specific styles, tones, or formats.
+- Mention specific elements or topics to include or exclude.
+- Make customization requests considering the target audience or usage context.
 
-### 주의사항
+### Caution
 
-- 너무 많은 제약을 두어 AI의 성능을 제한하지 않도록 주의하세요.
-- 맞춤화 요청이 다른 섹션의 지시사항과 모순되지 않도록 하세요.
+- Avoid imposing too many constraints that may limit AI's performance.
+- Ensure customization requests do not contradict instructions in other sections.
 
-### 예시
+### Example
 
 ```markdown
-## T(톤과스타일)
-- 보고서는 비전문가도 이해할 수 있는 쉬운 언어로 작성해주세요.
-- 각 섹션의 시작 부분에 핵심 요약을 bullet point로 제공해주세요.
-- 가능한 경우 실제 사례나 통계를 활용하여 논점을 뒷받침해주세요.
-- 전체적으로 긍정적이고 솔루션 중심적인 톤을 유지해주세요.
-- 회사의 브랜드 컬러인 파란색(#0000FF)을 강조색으로 사용해주세요.
+## T(Tone & Style)
+- Write the report in simple language that non-experts can understand.
+- Provide key summaries in bullet points at the beginning of each section.
+- Use real-life examples or statistics to support arguments whenever possible.
+- Maintain a positive and solution-oriented tone throughout.
+- Use the company's brand color, blue (#0000FF), as an accent color.
 ```
 
-## E: Example (예시) / R: Resource (자료)
+## E: Example / R: Resource
 
-### 상세 설명
+### Detailed Explanation
 
-Example과 Resource는 AI에게 참고할 만한 예시나 추가 자료를 제공하는 선택적 섹션입니다. 이들 섹션은 AI가 더 정확하고 관련성 높은 결과를 생성하는 데 도움을 줄 수 있습니다.
+Example and Resource are optional sections that provide examples or additional resources for AI to reference. These sections can help AI generate more accurate and relevant results.
 
-### 중요 안내
+### Important Notice
 
-**E(Example)와 R(Resource)은 필수 섹션이 아닙니다.** 이들은 필요한 경우에만 사용하며, 상황에 따라 생략할 수 있습니다. 특히 다음과 같은 경우에 이 섹션들을 생략할 수 있습니다:
+**E(Example) and R(Resource) are not mandatory sections.** They are used only when necessary and can be omitted depending on the situation. Particularly, these sections can be omitted in the following cases:
 
-- 간단하거나 일반적인 요청의 경우
-- 특정 예시나 추가 자료가 필요하지 않은 경우
-- 이미 충분한 정보가 다른 섹션에서 제공된 경우
+- For simple or general requests
+- When specific examples or additional resources are not needed
+- When sufficient information is already provided in other sections
 
-### 작성 방법 (사용 시)
+### How to Write (When Used)
 
-- Example: 원하는 결과물과 유사한 예시나 참고할 만한 형식을 제공하세요.
-- Resource: 관련 데이터, 문서, 링크 등 추가 정보 출처를 제공하세요.
+- Example: Provide examples or formats similar to the desired outcome.
+- Resource: Provide related data, documents, links, etc., as additional information sources.
 
-### 예시
+### Example
 
 ```markdown
-## E(예시참조)
-- 첨부된 "성공적인_마케팅_캠페인.pdf" 문서의 구조와 분석 방식을 참고해주세요.
-- 보도자료 내용은 첨부한 링크의 스타일을 참고하세요
+## E(Example Reference)
+- Refer to the structure and analysis method of the attached "Successful_Marketing_Campaign.pdf" document.
+- For press release content, refer to the style of the attached link.
 
-## R(자료참고)
-- 최신 시장 조사 데이터: [링크]
-- 회사 브랜드 가이드라인: [첨부 파일]
-- 경쟁사 분석 보고서: [문서 링크]
+## R(Resource Reference)
+- Latest market research data: [Link]
+- Company brand guidelines: [Attached file]
+- Competitor analysis report: [Document link]
 ```
 
 ---
 
-# 5. SMARTER 템플릿 예제
-## 예제 사용방법
-[내용] '내용'은 여러분둘의 상황에 맞게 수정해서 사용하시면 됩니다. 
+# 5. Example of the SMARTER Template
+## How to Use the Example
+[Content] 'Content' should be modified to fit your situation.
 
 ---
 
 ```markdown
-# 회의록 및 공유 이메일 생성 요청
+# Request for Meeting Minutes and Sharing Email
 
-## S: 상황
-당신은 회의 내용을 분석하여 공식적인 회의록과 공유용 이메일을 작성하는 전문 AI입니다.
+## S: Situation
+You are an AI specialized in analyzing meeting content to draft official meeting minutes and a sharing email.
 
-## M: 목표
-사용자가 제공한 회의 내용을 바탕으로, 지정된 양식에 맞춰 회의록을 요약 정리하고, 해당 회의록 공유를 위한 이메일 본문을 작성합니다.
+## M: Mission
+Based on the meeting content provided by the user, summarize and organize the meeting minutes according to the specified format and draft the email body for sharing the minutes.
 
-## A: 실행 계획
-중요: 각 단계가 완료 될 때마다 사용자에게 내용을 확인 받은 후 다음 단계 진행
-1.  회의 내용 분석 및 초안 작성: 사용자가 제공한 회의 내용(텍스트, 녹취록 요약 등)을 분석하고, 아래 제공된 "회의록 양식"에 맞춰 회의록 초안을 작성합니다.
-2.  정보 확인 및 보충: 회의록 양식에 필수적인 정보(예: 회의 제목, 일시, 장소, 참석자 명단, 결정 사항, 실행 항목 등)가 누락된 경우, 사용자에게 명확하게 질문하여 필요한 정보를 보충합니다.
-3.  회의록 초안 검토 요청: 정보 보충 후 완성된 회의록 초안을 사용자에게 제시하고, 내용 검토 및 수정 사항 확인을 요청합니다.
-4.  최종 회의록 생성: 사용자의 피드백을 반영하여 최종 회의록 텍스트를 생성합니다.
-5.  이메일 본문 작성: 최종 확정된 회의록을 바탕으로, 아래 제공된 "이메일 양식"에 맞춰 회의 내용을 간략히 요약하고 회의록 참조를 안내하는 이메일 본문 초안을 작성합니다. (*주의: AI는 실제 파일 첨부를 할 수 없으므로, 사용자가 메일 발송 시 회의록 파일을 직접 첨부해야 함을 인지시켜 주세요.*)
-6.  이메일 본문 검토 요청: 작성된 이메일 본문을 사용자에게 제시하고, 최종 확인을 받습니다.
+## A: Execution Plan
+Important: After each step is completed, the user should confirm the content before proceeding to the next step.
+1. Analyze the meeting content and draft: Analyze the meeting content (text, summary of transcripts, etc.) provided by the user and draft the meeting minutes according to the provided "Meeting Minutes Format."
+2. Information Confirmation and Supplementation: If essential information (e.g., meeting title, date, location, attendee list, decisions, action items) required by the meeting minutes format is missing, clearly ask the user to supplement the necessary information.
+3. Request for Review of Draft Minutes: Present the completed draft minutes to the user after supplementing information and request review and confirmation of any modifications.
+4. Final Meeting Minutes Creation: Reflect the user's feedback to create the final meeting minutes text.
+5. Drafting the Email Body: Based on the finalized meeting minutes, draft the email body summarizing the meeting content and guiding the reference to the minutes according to the provided "Email Format." (*Note: AI cannot actually attach files, so inform the user that they need to attach the minutes file themselves when sending the email.*)
+6. Request for Review of Email Body: Present the drafted email body to the user and obtain final confirmation.
 
-## R: 결과물
+## R: Outcome
 
-* 최종 회의록: 아래 "회의록 양식"에 따라 작성된 회의록 텍스트
-* 이메일 본문: 아래 "이메일 양식"에 따라 작성된 공유용 이메일 본문 텍스트
+* Final Meeting Minutes: Meeting minutes text written according to the "Meeting Minutes Format" below.
+* Email Body: Sharing email body text written according to the "Email Format" below.
 
-## T: 톤과 스타일
-간결하고 전문적인 비즈니스 문서 스타일
+## T: Tone & Style
+Concise and professional business document style
 
-## E: 예시 및 양식
+## E: Example and Format
 
-[회의록 양식]
+[Meeting Minutes Format]
 
-회의 제목: [회의 제목 입력]
-일시: [YYYY-MM-DD] [HH:MM] ~ [HH:MM]
-장소: [회의 장소]
-참석자: [참석자 이름 목록 (직책 포함 권장)]
-작성자: [작성자 이름 또는 AI]
+Meeting Title: [Enter Meeting Title]
+Date: [YYYY-MM-DD] [HH:MM] ~ [HH:MM]
+Location: [Meeting Location]
+Attendees: [List of Attendees (including positions recommended)]
+Author: [Author's Name or AI]
 
-1. 회의 개요:
-   [회의의 주요 목적과 배경을 1~2 문장으로 요약]
+1. Meeting Overview:
+   [Summarize the main purpose and background of the meeting in 1-2 sentences]
 
-2. 주요 논의 내용:
-   ① [논의 안건 1]
-      - 주요 발언/내용:
-         - [핵심 논의 내용 요약 1]
-         - [핵심 논의 내용 요약 2]
-      - 결정 사항: [합의되거나 결정된 내용 명시, 없을 시 '추후 논의' 등 명시]
+2. Main Discussion Points:
+   ① [Discussion Item 1]
+      - Key Remarks/Content:
+         - [Summary of Key Discussion Content 1]
+         - [Summary of Key Discussion Content 2]
+      - Decisions: [Specify agreed or decided content, if none, specify 'Further Discussion']
 
-   ② [논의 안건 2]
-      - 주요 발언/내용:
-         - [핵심 논의 내용 요약 1]
-         - [핵심 논의 내용 요약 2]
-      - 결정 사항: [합의되거나 결정된 내용 명시]
+   ② [Discussion Item 2]
+      - Key Remarks/Content:
+         - [Summary of Key Discussion Content 1]
+         - [Summary of Key Discussion Content 2]
+      - Decisions: [Specify agreed or decided content]
 
-   *(필요에 따라 안건 추가)*
+   *(Add items as needed)*
 
-3. 결정 사항 및 실행 항목 (Action Items):
-| 실행 항목 | 담당자 | 완료 기한 | 비고 |
+3. Decisions and Action Items:
+| Action Item | Responsible Person | Deadline | Remarks |
 |---|---|---|---|
-| [구체적인 실행 내용 1] | [담당자 이름] | [YYYY-MM-DD] | [선택적 추가 설명] |
-| [구체적인 실행 내용 2] | [담당자 이름] | [YYYY-MM-DD] | |
+| [Specific Action Content 1] | [Responsible Person's Name] | [YYYY-MM-DD] | [Optional Additional Remarks] |
+| [Specific Action Content 2] | [Responsible Person's Name] | [YYYY-MM-DD] | |
 
-4. 기타/특이 사항:
-   [공유해야 할 추가 정보나 다음 회의 일정 등 기타 사항]
+4. Other/Notable Items:
+   [Additional information to be shared or other items such as the schedule for the next meeting]
 
 ---
 
-[이메일 양식]
+[Email Format]
 
-제목: [회의 제목] 회의 결과 공유 (YYYY-MM-DD)
+Subject: [Meeting Title] Meeting Results Sharing (YYYY-MM-DD)
 
-수신: [참석자 또는 관련 팀]
+To: [Attendees or Related Team]
 
-참조: [필요시 참조 대상]
+Cc: [Reference if necessary]
 
-안녕하세요, [작성자 이름 또는 팀]입니다.
+Hello, this is [Author's Name or Team].
 
-[YYYY-MM-DD]에 진행된 '[회의 제목]' 회의 결과를 공유드립니다.
+We are sharing the results of the '[Meeting Title]' meeting held on [YYYY-MM-DD].
 
-주요 논의 내용 요약:
-* [핵심 논의 주제 1 관련 요약]
-* [핵심 논의 주제 2 관련 요약]
-* 주요 결정 사항 및 실행 항목은 첨부된 회의록을 참고 부탁드립니다.
+Summary of Key Discussion Topics:
+* [Summary related to Key Discussion Topic 1]
+* [Summary related to Key Discussion Topic 2]
+* Please refer to the attached minutes for major decisions and action items.
 
-첨부:
-* [회의 제목] 회의록_[YYYYMMDD].docx (또는 .pdf 등)  *(실제 파일 첨부는 사용자가 직접 수행)*
+Attachment:
+* [Meeting Title] Minutes_[YYYYMMDD].docx (or .pdf, etc.) *(The user must attach the actual file themselves)*
 
-바쁘신 와중에도 참석해주셔서 감사합니다.
-문의사항이 있으시면 언제든지 회신 부탁드립니다.
+Thank you for attending despite your busy schedule.
+Please feel free to reply if you have any questions.
 
-감사합니다.
-[작성자 이름 또는 팀 이름] 드림
+Thank you.
+[Author's Name or Team Name]
 ```
 ```markdown
 # 모두의AI 미팅록
@@ -522,62 +515,62 @@ Example과 Resource는 AI에게 참고할 만한 예시나 추가 자료를 제�
 다들 고생 많으셨습니다. 자료 정리되면 금요일 오전까지 전달드릴게요!
 ```
 ---
-## 사무국 기획 및 사업총괄 - 프로젝트 관리
+## Office Planning and Business Management - Project Management
 
-사무국 기획 및 사업총괄을 위한 프로젝트 관리 프롬프트
+Prompt for Project Management for Office Planning and Business Management
 
-### 프롬프트 작성 팁
+### Prompt Writing Tips
 
-- 상황: 사무국 기획 및 사업총괄의 현재 프로젝트 상황을 구체적으로 설명합니다.
-- 목표: 프로젝트 관리의 구체적인 목표를 설정합니다.
-- 실행 계획: 프로젝트를 효과적으로 관리하기 위한 단계별 계획을 제시합니다.
-- 결과물: 원하는 프로젝트 관리 계획서나 일정표 등의 형태를 명확히 합니다.
-- 톤과 스타일: 전문적이고 체계적인 어조를 사용합니다.
+- Situation: Describe the current project situation for office planning and business management in detail.
+- Goal: Set specific goals for project management.
+- Execution Plan: Present a step-by-step plan for effective project management.
+- Deliverables: Clearly specify the desired form of the project management plan or schedule.
+- Tone and Style: Use a professional and systematic tone.
 
-### 프롬프트 예시
+### Prompt Example
 
 ```markdown
-## S: 상황
-- [당신]은 [사무국 기획 및 사업총괄]으로, 현재 [신규 사업 런칭 프로젝트]를 진행 중입니다.
-- 프로젝트는 [6개월 내에 완성]되어야 하며, [예산 1억 원]으로 설정되어 있습니다.
-- 팀은 [기획, 마케팅, 개발, 디자인] 등 다양한 부서로 구성되어 있으며, 현재 [초기 기획 단계]에 있습니다.
-- 이전 프로젝트에서는 [일정 지연 및 예산 초과] 문제가 발생했으므로, 이번에는 이를 개선하고자 합니다.
+## S: Situation
+- [You] are [in charge of office planning and business management], currently working on a [new business launch project].
+- The project must be completed [within 6 months] with a budget of [100 million KRW].
+- The team consists of various departments such as [planning, marketing, development, design], and is currently in the [initial planning stage].
+- Previous projects faced issues of [schedule delays and budget overruns], so improvements are sought this time.
 
-## M: 목표
-- [6개월 내에 신규 사업 런칭]을 성공적으로 완료하는 것이 목표입니다.
-- [프로젝트 일정 준수] 및 [예산 내 운영]을 통해 프로젝트의 효율성을 극대화합니다.
-- 팀 간의 원활한 협업과 커뮤니케이션을 강화하여 [프로젝트의 품질을 높이는 것]을 목표로 합니다.
+## M: Goal
+- Successfully complete the [new business launch] within [6 months].
+- Maximize project efficiency by adhering to the [project schedule] and operating within the [budget].
+- Enhance [project quality] by strengthening smooth collaboration and communication among teams.
 
-## A: 실행 계획
-- 중요 사항: 각 단계마다 생성된 결과물에 대해 사용자가 추가/수정 사항을 확인한 후, 다음 단계로 진행합니다
+## A: Execution Plan
+- Important: After each step, the user should confirm the generated deliverables and decide whether to proceed to the next step.
 
-1. 프로젝트 일정 수립
-   - 전체 프로젝트를 단계별로 나누고, 각 단계의 마일스톤을 설정합니다.
+1. Establish Project Schedule
+   - Divide the entire project into phases and set milestones for each phase.
 
-2. 예산 관리
-   - 예산 항목을 세분화하고, 각 항목별 예산을 배정합니다.
-   - 정기적인 예산 검토를 통해 초과 지출을 방지합니다.
+2. Budget Management
+   - Break down budget items and allocate budgets for each item.
+   - Prevent overspending through regular budget reviews.
 
-3. 팀 구성 및 역할 분담
-   - 각 부서의 역할과 책임을 명확히 정의합니다.
-   - 정기적인 팀 회의를 통해 진행 상황을 공유하고, 문제점을 해결합니다.
+3. Team Composition and Role Assignment
+   - Clearly define the roles and responsibilities of each department.
+   - Share progress and resolve issues through regular team meetings.
 
-4. 리스크 관리
-   - 프로젝트 진행 중 발생할 수 있는 리스크를 식별하고, 대응 계획을 수립합니다.
-   - 리스크 발생 시 즉각적인 대응을 통해 프로젝트 지연을 최소화합니다.
+4. Risk Management
+   - Identify potential risks during project execution and establish response plans.
+   - Minimize project delays through immediate response to risks.
 
-## R: 결과물
-- [프로젝트 관리 계획서]를 작성하며, 다음의 항목을 포함합니다:
-  - 프로젝트 개요
-  - 일정 및 마일스톤
-  - 예산 내역
-  - 팀 구성 및 역할
-  - 리스크 관리 계획
+## R: Deliverables
+- Write a [project management plan] including the following items:
+  - Project overview
+  - Schedule and milestones
+  - Budget details
+  - Team composition and roles
+  - Risk management plan
 
-## T: 톤과 스타일
-- 어조: 전문적이고 체계적인 어조
-- 스타일: 간결하고 명확한 문장, 표와 목록을 활용하여 정보의 가독성 높임
-- 대상 독자: 프로젝트 팀원 및 경영진
+## T: Tone and Style
+- Tone: Professional and systematic
+- Style: Concise and clear sentences, use tables and lists to enhance readability
+- Target Audience: Project team members and management
 ```
 
 ---
