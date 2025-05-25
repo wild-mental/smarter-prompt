@@ -575,313 +575,307 @@ Prompt for Project Management for Office Planning and Business Management
 
 ---
 
-## 총괄 경영 대표이사 - 법률 자문 및 계약 검토
+## CEO - Legal Consultation and Contract Review
 
-총괄 경영 대표이사를 위한 법률 자문 및 계약 검토 프롬프트
+Prompt for Legal Consultation and Contract Review for the CEO
 
-### 프롬프트 작성 팁
+### Prompt Writing Tips
 
-- 상황: 대표이사의 현재 법률적 이슈나 계약 상황을 상세히 설명합니다.
-- 목표: 법률 자문 및 계약 검토의 구체적인 목표를 설정합니다.
-- 실행 계획: 법률 검토를 위한 단계별 접근 방식을 제시합니다.
-- 결과물: 법률 자문 보고서나 계약서 수정안 등의 형태를 명확히 합니다.
-- 톤과 스타일: 전문적이고 신뢰성 있는 어조를 사용합니다.
+- Situation: Describe in detail the current legal issues or contract situation of the CEO.
+- Goal: Set specific goals for legal consultation and contract review.
+- Execution Plan: Present a step-by-step approach for legal review.
+- Deliverables: Clearly specify the form of the legal consultation report or contract amendment.
+- Tone and Style: Use a professional and reliable tone.
 
-### 프롬프트 예시
+### Prompt Example
 
 ```markdown
-## S: 상황
-- [당신]은 [총괄 경영 대표이사]로, 현재 [신규 파트너십 계약]을 검토하고 있습니다.
-- 계약 내용은 [공동 마케팅, 기술 협력, 수익 배분] 등 다양한 조항을 포함하고 있으며, [법률 자문]이 필요합니다.
-- 이전 계약에서 [법적 분쟁]이 발생한 경험이 있어, 이번에는 더욱 신중하게 검토하고자 합니다.
-- 현재 [법무팀]과 외부 법률 자문가와 협력하여 계약을 검토 중입니다.
+## S: Situation
+- [You] are the [CEO], currently reviewing a [new partnership contract].
+- The contract includes various clauses such as [joint marketing, technical cooperation, revenue sharing], and requires [legal consultation].
+- Due to previous experiences with [legal disputes] in past contracts, a more cautious review is desired this time.
+- Currently, the contract is being reviewed in collaboration with the [legal team] and external legal advisors.
 
-## M: 목표
-- [신규 파트너십 계약]이 법적으로 문제가 없으며, 회사의 이익을 최대화할 수 있도록 검토합니다.
-- [법적 리스크]를 최소화하고, 계약의 명확성을 높이는 것이 목표입니다.
-- [검토 완료 및 승인]을 [2주 내로] 완료합니다.
+## M: Goal
+- Ensure that the [new partnership contract] is legally sound and maximizes the company's interests.
+- Minimize [legal risks] and enhance the clarity of the contract.
+- Complete the [review and approval] within [two weeks].
 
-## A: 실행 계획
-- 중요 사항: 각 단계마다 생성된 결과물에 대해 사용자가 추가/수정 사항을 확인한 후, 다음 단계로 진행합니다
+## A: Execution Plan
+- Important: After each step, the user should confirm the generated deliverables and decide whether to proceed to the next step.
 
-1. 계약서 초안 검토
-   - 주요 조항을 중심으로 계약서 초안을 검토합니다.
-   - 법률 용어의 정확성을 확인하고, 모호한 부분을 수정합니다.
+1. Review of Contract Draft
+   - Review the draft contract focusing on key clauses.
+   - Verify the accuracy of legal terms and amend ambiguous sections.
 
-2. 리스크 분석
-   - 계약서에 포함된 리스크 요소를 식별하고, 이에 대한 대응 방안을 마련합니다.
-   - 잠재적인 법적 분쟁 가능성을 평가합니다.
+2. Risk Analysis
+   - Identify risk elements included in the contract and prepare countermeasures.
+   - Evaluate the potential for legal disputes.
 
-3. 수정 및 협상
-   - 필요한 수정 사항을 반영하여 계약서를 수정합니다.
-   - 파트너사와 협상을 진행하여 상호 이익을 도모합니다.
+3. Amendments and Negotiations
+   - Reflect necessary amendments in the contract.
+   - Conduct negotiations with the partner company to promote mutual benefits.
 
-4. 최종 검토 및 승인
-   - 수정된 계약서를 최종 검토하고, 법무팀 및 경영진의 승인을 받습니다.
-   - 모든 수정 사항이 반영되었는지 확인합니다.
+4. Final Review and Approval
+   - Conduct a final review of the amended contract and obtain approval from the legal team and management.
+   - Ensure all amendments have been incorporated.
 
-## R: 결과물
-- [법률 자문 보고서]를 작성하며, 다음의 항목을 포함합니다:
-  - 계약서 주요 조항 분석
-  - 법적 리스크 평가
-  - 수정 및 협상 제안 사항
-- [수정된 계약서]를 제공하며, 모든 수정 사항이 명확히 반영되어 있습니다.
-- [최종 승인 문서]를 작성하여 계약의 최종 승인 상태를 기록합니다.
+## R: Deliverables
+- Prepare a [legal consultation report] including the following items:
+  - Analysis of key contract clauses
+  - Legal risk assessment
+  - Amendment and negotiation proposals
+- Provide the [amended contract] with all amendments clearly reflected.
+- Draft a [final approval document] to record the final approval status of the contract.
 
-## T: 톤과 스타일
-- 어조: 전문적이고 신뢰성 있는 어조
-- 스타일: 정중하고 공식적인 문체, 법률 용어의 정확한 사용
-- 대상 독자: 경영진, 법무팀, 외부 법률 자문가
+## T: Tone and Style
+- Tone: Professional and reliable
+- Style: Polite and formal language, precise use of legal terminology
+- Target Audience: Management, legal team, external legal advisors
 ```
 
 ---
+## Planning - Creating Meaningful Content for Senior Users
 
-## 기획 - 시니어 유저에게 유의미한 콘텐츠 생성
+Planning prompt for creating content for senior users
 
-기획자를 위한 시니어 유저 대상 콘텐츠 생성 프롬프트
+### Tips for Writing Prompts
 
-### 프롬프트 작성 팁
+- Situation: Describe the current content requirements and background for senior users.
+- Goal: Set specific goals for creating meaningful content for senior users.
+- Execution Plan: Outline the step-by-step plan for content creation.
+- Deliverables: Clearly specify the format or form of the desired content.
+- Tone and Style: Use a friendly and easy-to-understand tone suitable for senior users.
 
-- 상황: 시니어 유저의 현재 콘텐츠 요구사항과 배경을 설명합니다.
-- 목표: 시니어 유저에게 유의미한 콘텐츠를 생성하는 구체적인 목표를 설정합니다.
-- 실행 계획: 콘텐츠 생성의 단계별 계획을 제시합니다.
-- 결과물: 원하는 콘텐츠의 형태나 형식을 명확히 합니다.
-- 톤과 스타일: 시니어 유저에 맞는 친절하고 이해하기 쉬운 어조를 사용합니다.
-
-### 프롬프트 예시
-
-```markdown
-## S: 상황
-- [당신]은 [기획자]로, 현재 [시니어 유저를 위한 디지털 교육 프로그램]을 기획 중입니다.
-- 시니어 유저들은 [디지털 기기 사용에 대한 낮은 자신감]과 [기술적 장벽]을 경험하고 있습니다.
-- 기존의 콘텐츠는 주로 [기초적인 사용법]에 초점을 맞추었으나, 시니어 유저의 [심화된 학습 욕구]를 충족시키지 못하고 있습니다.
-- 이번 프로젝트는 시니어 유저의 요구에 맞춘 [유의미하고 실용적인 콘텐츠]를 제공하고자 합니다.
-
-## M: 목표
-- [6개월 내에 디지털 교육 프로그램을 완료]하고, [시니어 유저의 디지털 기기 활용 능력 향상]을 목표로 합니다.
-- [참여자 만족도 90% 이상]을 달성하며, [프로그램 완료 후의 실용성 평가]를 통해 성공을 측정합니다.
-- [콘텐츠의 접근성과 이해도]를 높여 시니어 유저의 학습 효과를 극대화합니다.
-
-## A: 실행 계획
-- 중요 사항: 각 단계마다 생성된 결과물에 대해 사용자가 추가/수정 사항을 확인한 후, 다음 단계로 진행합니다
-
-1. 시니어 유저 요구 분석
-   - 설문조사 및 인터뷰를 통해 시니어 유저의 필요와 기대를 파악합니다.
-   - 기존 프로그램의 피드백을 분석하여 개선점을 도출합니다.
-
-2. 콘텐츠 기획
-   - [기초 사용법] 외에 [고급 기능 활용], [안전한 인터넷 사용법], [온라인 소통 방법] 등 다양한 주제를 포함합니다.
-   - 각 주제에 맞는 학습 자료와 실습 과제를 설계합니다.
-
-3. 콘텐츠 제작
-   - 이해하기 쉬운 언어와 시각적 자료를 활용하여 콘텐츠를 제작합니다.
-   - 동영상 강의, PDF 자료, 실습 가이드 등 다양한 형식으로 제공합니다.
-
-4. 테스트 및 피드백
-   - 파일럿 프로그램을 운영하여 시니어 유저의 피드백을 수집합니다.
-   - 피드백을 바탕으로 콘텐츠를 수정 및 보완합니다.
-
-## R: 결과물
-- [디지털 교육 프로그램 커리큘럼]을 작성하며, 다음의 항목을 포함합니다:
-  - 각 주차별 학습 목표 및 내용
-  - 강의 자료 및 실습 과제
-  - 평가 및 피드백 방법
-- [동영상 강의 시리즈]를 제작하여, 시니어 유저가 따라하기 쉬운 형식으로 제공합니다.
-- [참여자 만족도 설문지]를 통해 프로그램의 효과를 평가할 수 있는 도구를 마련합니다.
-
-## T: 톤과 스타일
-- 어조: 친절하고 이해하기 쉬운 어조
-- 스타일: 명확하고 간결한 문체, 시각적 자료와 예시를 풍부하게 활용
-- 대상 독자: 시니어 유저, 교육 프로그램 기획자
-
-```
-
----
-
-## 디자이너 - 디자인 및 영상 제작
-
-디자이너를 위한 디자인 및 영상 제작 프롬프트
-
-### 프롬프트 작성 팁
-
-- 상황: 현재 디자인 또는 영상 제작의 배경과 목적을 설명합니다.
-- 목표: 디자인 또는 영상 제작의 구체적인 목표를 설정합니다.
-- 실행 계획: 디자인 또는 영상 제작을 위한 단계별 계획을 제시합니다.
-- 결과물: 원하는 디자인 또는 영상의 형태나 형식을 명확히 합니다.
-- 톤과 스타일: 창의적이고 시각적으로 매력적인 어조를 사용합니다.
-
-### 프롬프트 예시
+### Example Prompt
 
 ```markdown
-## S: 상황
-- [당신]은 [디자이너]로, 현재 [신제품 런칭 캠페인]을 위한 디자인 및 영상 제작을 담당하고 있습니다.
-- 신제품은 [혁신적인 스마트 기기]로, 이를 효과적으로 홍보하기 위한 시각적 자료가 필요합니다.
-- 마케팅 팀과 협력하여 [일관된 브랜드 이미지]를 유지하면서 창의적인 콘텐츠를 제작하고자 합니다.
-- 이전 캠페인에서 사용된 디자인은 [고객의 관심을 충분히 끌지 못함]이라는 피드백을 받았습니다.
+## S: Situation
+- [You] are a [planner], currently planning a [digital education program for senior users].
+- Senior users are experiencing [low confidence in using digital devices] and [technical barriers].
+- Existing content has primarily focused on [basic usage], but does not meet the [advanced learning needs] of senior users.
+- This project aims to provide [meaningful and practical content] tailored to senior users' needs.
 
-## M: 목표
-- [신제품 런칭을 위한 3개의 주요 디자인 자료]와 [1개의 홍보 영상]을 제작합니다.
-- 디자인 자료는 [브랜드 가이드라인에 맞추면서도 창의적인 요소]를 포함하도록 합니다.
-- 영상은 [2분 이내]로 제작하여, [소셜 미디어 및 웹사이트에 게시]할 예정입니다.
-- [런칭 캠페인 기간 내에 모든 자료를 완성]하는 것이 목표입니다.
+## M: Goal
+- [Complete the digital education program within 6 months] and aim to [improve senior users' digital device utilization skills].
+- Achieve [participant satisfaction of 90% or higher] and measure success through [practicality assessment after program completion].
+- Enhance [content accessibility and understandability] to maximize senior users' learning outcomes.
 
-## A: 실행 계획
-- 중요 사항: 각 단계마다 생성된 결과물에 대해 사용자가 추가/수정 사항을 확인한 후, 다음 단계로 진행합니다
+## A: Execution Plan
+- Important: After each step, the user should confirm the generated deliverables and decide whether to proceed to the next step.
 
-1. 콘셉트 개발
-   - 신제품의 핵심 가치를 반영한 디자인 및 영상 컨셉을 개발합니다.
-   - 스토리보드를 작성하여 영상의 흐름을 계획합니다.
+1. Senior User Needs Analysis
+   - Conduct surveys and interviews to understand senior users' needs and expectations.
+   - Analyze feedback from previous programs to identify areas for improvement.
 
-2. 디자인 제작 기획
-   - [제품 이미지, 배너, 포스터] 등의 디자인 요소를 기획합니다.
-   - 브랜드 색상, 로고, 타이포그래피 등을 일관되게 적용합니다.
+2. Content Planning
+   - Include diverse topics such as [advanced feature utilization], [safe internet usage], and [online communication methods] beyond [basic usage].
+   - Design learning materials and practice exercises for each topic.
 
-3. 영상 제작 기획
-   - 촬영 및 편집을 통해 홍보 영상을 콘티 기획합니다.
-   - 음악, 자막, 그래픽 효과 등을 활용하여 영상의 완성도를 높이기 위해 제안하세요
+3. Content Creation
+   - Use easy-to-understand language and visual aids to create content.
+   - Provide content in various formats such as video lectures, PDF materials, and practice guides.
 
-4. 협업 제안서 작성
-   - 마케팅 팀과 협력하여 디자인 및 영상 자료를 검토하도록 5page분량의 제안서를 작성하세요
+4. Testing and Feedback
+   - Operate a pilot program to collect feedback from senior users.
+   - Modify and supplement content based on feedback.
 
-## R: 결과물
-- [3개의 디자인 기획서]:
-  - 제품 포스터 (A3 사이즈)
-  - 소셜 미디어 배너 (1080x1080 픽셀)
-  - 웹사이트 배너 (1920x1080 픽셀)
-- [1개의 홍보 영상 기획서]:
-  - 길이: [2분 이내]
-  - 해상도: [1080p]
-  - 형식: [MP4]
-- [디자인 및 영상 협업 제안서]:
-  - 협업 요청 제안
+## R: Deliverables
+- Prepare a [digital education program curriculum] including the following items:
+  - Learning objectives and content for each week
+  - Lecture materials and practice exercises
+  - Evaluation and feedback methods
+- Produce a [video lecture series] in a format easy for senior users to follow.
+- Develop a [participant satisfaction survey] to evaluate the program's effectiveness.
 
-## T: 톤과 스타일
-- 어조: 창의적이고 열정적인 어조
-- 스타일: 시각적으로 매력적인 요소를 강조, 동적인 디자인과 영상 편집
-- 대상 독자: 마케팅 팀, 잠재 고객, 내부 임직원
+## T: Tone and Style
+- Tone: Friendly and easy to understand
+- Style: Clear and concise language, abundant use of visual aids and examples
+- Target Audience: Senior users, education program planners
 
 ```
 
 ---
+## Designer - Design and Video Production
 
-## 영상제작 및 행정 - 영상 제작
+Design and video production prompt for designers
 
-영상제작 및 행정을 위한 영상 제작 프롬프트
+### Prompt Writing Tips
 
-### 프롬프트 작성 팁
+- Situation: Describe the background and purpose of the design or video production.
+- Goal: Set specific goals for the design or video production.
+- Execution Plan: Present step-by-step plans for the design or video production.
+- Deliverables: Clearly define the desired form or format of the design or video.
+- Tone and Style: Use a creative and visually appealing tone.
 
-- 상황: 현재 영상 제작의 배경과 목적을 설명합니다.
-- 목표: 영상 제작의 구체적인 목표를 설정합니다.
-- 실행 계획: 영상 제작을 위한 단계별 계획을 제시합니다.
-- 결과물: 원하는 영상의 형태나 형식을 명확히 합니다.
-- 톤과 스타일: 시청자에게 전달하고자 하는 메시지에 맞는 어조와 스타일을 사용합니다.
-
-### 프롬프트 예시
+### Example Prompt
 
 ```markdown
-## S: 상황
-- [당신]은 [영상제작 및 행정 담당자]로, 현재 [사내 교육용 영상 시리즈]를 제작하고 있습니다.
-- 교육 대상은 [신입사원]으로, 회사의 문화와 업무 프로세스를 이해시키는 것이 목적입니다.
-- 기존의 교육 자료는 [텍스트 중심]으로, 이해도가 낮고 흥미를 유발하지 못한다는 피드백을 받았습니다.
-- 이번 프로젝트는 [시각적이고 흥미로운 영상]을 통해 교육 효과를 높이고자 합니다.
+## S: Situation
+- [You] are a [designer], currently responsible for designing and producing videos for a [new product launch campaign].
+- The new product is an [innovative smart device], and visual materials are needed to effectively promote it.
+- Collaborate with the marketing team to create creative content while maintaining a [consistent brand image].
+- Feedback from previous campaigns indicates that the design did not [sufficiently capture customers' attention].
 
-## M: 목표
-- [3개의 교육용 영상]을 제작하여 [내부 교육 프로그램]에 활용합니다.
-- 각 영상의 길이는 [10분 이내]로 하며, [시청자의 이해도와 흥미 유발]을 목표로 합니다.
-- [다음 분기까지 모든 영상 제작 완료]를 목표로 합니다.
+## M: Goal
+- Produce [three key design materials] and [one promotional video] for the new product launch.
+- Ensure design materials include [creative elements while adhering to brand guidelines].
+- The video should be [under 2 minutes] and intended for [social media and website posting].
+- Complete all materials within the [launch campaign period].
 
-## A: 실행 계획
-- 중요 사항: 각 단계마다 생성된 결과물에 대해 사용자가 추가/수정 사항을 확인한 후, 다음 단계로 진행합니다
+## A: Execution Plan
+- Important: After each step, the user should confirm the generated deliverables and decide whether to proceed to the next step.
 
-1. 콘텐츠 기획
-   - 교육 내용과 주요 메시지를 정의합니다.
-   - 각 영상의 스토리보드를 작성하여 전체 흐름을 계획합니다.
+1. Concept Development
+   - Develop design and video concepts that reflect the new product's core values.
+   - Create a storyboard to plan the video's flow.
 
-2. 대본 작성
-   - 교육 내용을 쉽게 이해할 수 있도록 대본을 작성합니다.
-   - 시각적 요소와 연계된 설명을 포함시킵니다.
+2. Design Planning
+   - Plan design elements such as [product images, banners, posters].
+   - Consistently apply brand colors, logos, typography, and other visual elements.
 
-3. 촬영 준비
-   - 필요한 장비와 장소를 준비를 제안하세요
-   - 출연자 및 촬영 일정을 제안하세요
+3. Video Planning
+   - Plan the promotional video through filming and editing.
+   - Suggest using music, subtitles, and graphic effects to enhance the video's completeness.
 
-4. 영상 촬영
-   - 촬영을 위한 스토리 보드를 작성하세요
-   - 조명, 음향 등 촬영 품질을 위한 체크리스트를 작성하세요
+4. Collaboration Proposal Writing
+   - Write a 5-page proposal to review design and video materials with the marketing team.
 
-## R: 결과물
-- [3개의 교육용 영상 기획안]:
-  - 주제별로 나누어진 영상 (예: 회사 문화, 업무 프로세스, 팀 협업)
-  - 해상도: [1080p]
-  - 형식: [MP4]
-- [스토리보드 및 대본]:
-  - 각 영상의 스토리보드와 대본
+## R: Deliverables
+- [Three design plan documents]:
+  - Product poster (A3 size)
+  - Social media banner (1080x1080 pixels)
+  - Website banner (1920x1080 pixels)
+- [One promotional video plan document]:
+  - Length: [under 2 minutes]
+  - Resolution: [1080p]
+  - Format: [MP4]
+- [Design and video collaboration proposal]:
+  - Collaboration request proposal
 
-## T: 톤과 스타일
-- 어조: 친근하고 교육적인 어조
-- 스타일: 시각적 요소를 강조한 동적 스타일, 명확한 설명과 예시 사용
-- 대상 독자: 신입사원, 교육 담당자
+## T: Tone and Style
+- Tone: Creative and passionate
+- Style: Emphasize visually appealing elements, dynamic design, and video editing
+- Target Audience: Marketing team, potential customers, internal employees
 ```
 
 ---
 
-## 프로그램 운영 보조 - 고객 서비스 및 문의 응대
+## Video Production and Administration - Video Production
 
-프로그램 운영 보조를 위한 고객 서비스 및 문의 응대 프롬프트
+Video production and administration prompt for video production
 
-### 프롬프트 작성 팁
+### Prompt Writing Tips
 
-- 상황: 고객 서비스 상황과 현재 문의 유형을 설명합니다.
-- 목표: 효과적인 고객 서비스 및 문의 응대의 구체적인 목표를 설정합니다.
-- 실행 계획: 고객 응대를 위한 단계별 계획을 제시합니다.
-- 결과물: 원하는 응대 방식이나 자료의 형태를 명확히 합니다.
-- 톤과 스타일: 친절하고 신속한 어조를 사용합니다.
+- Situation: Describe the background and purpose of the video production.
+- Goal: Set specific goals for the video production.
+- Execution Plan: Present step-by-step plans for the video production.
+- Deliverables: Clearly define the desired form or format of the video.
+- Tone and Style: Use a tone and style suitable for the message to be conveyed to the audience.
 
-### 프롬프트 예시
+### Example Prompt
 
 ```markdown
-## S: 상황
-- [당신]은 [교육 프로그램 운영 보조]로, 현재 [온라인 교육 플랫폼]에서 고객의 문의를 받고 있습니다.
-- 주로 [회원 가입, 결제 문제, 강의 접근성] 관련 문의가 많습니다.
-- 최근 사용자 증가로 인해 문의량이 급격히 증가하였으며, 신속하고 정확한 응대가 필요합니다.
-- 기존의 FAQ는 일부 문의에 대한 충분한 답변을 제공하지 못하고 있습니다.
+## S: Situation
+- [You] are a [video production and administration officer], currently producing a [video series for internal training].
+- The target audience is [new employees], aiming to help them understand the company's culture and work processes.
+- Feedback from previous training materials indicates that they are [text-centric] and lack engagement.
+- This project aims to increase educational effectiveness through [visually engaging and interesting videos].
 
-## M: 목표
-- [고객 문의에 대한 응답 시간을 평균 24시간 이내]로 단축합니다.
-- [문의 해결률 95% 이상]을 달성하여 고객 만족도를 높입니다.
-- [FAQ]를 업데이트하여 [반복적인 문의 감소]를 목표로 합니다.
+## M: Goal
+- Produce [three educational videos] for use in [internal training programs].
+- Each video should be [under 10 minutes] and aim to [increase audience understanding and engagement].
+- Complete all video productions by [next quarter].
 
-## A: 실행 계획
-- 중요 사항: 각 단계마다 생성된 결과물에 대해 사용자가 추가/수정 사항을 확인한 후, 다음 단계로 진행합니다
+## A: Execution Plan
+- Important: After each step, the user should confirm the generated deliverables and decide whether to proceed to the next step.
 
-1. 문의 유형 분석
-   - 최근 3개월간의 고객 문의 데이터를 분석하여 주요 문의 유형을 파악합니다.
-   - 빈번한 문의 사항을 중심으로 FAQ를 재구성합니다.
+1. Content Planning
+   - Define the educational content and key messages.
+   - Write a storyboard for each video to plan the overall flow.
 
-2. 응대 매뉴얼 작성
-   - 각 문의 유형별로 표준 응대 절차를 작성합니다.
-   - 응답 템플릿을 마련하여 일관된 응대를 유지합니다.
+2. Scriptwriting
+   - Write scripts that make the educational content easy to understand.
+   - Include visual elements and explanations.
 
-3. 자동화 도구 도입
-   - 챗봇을 활용하여 기본적인 문의에 대한 자동 시나리오 응답을 설계하세요
-   - AI 기반의 고객 지원 도구를 도입하여 효율성을 높이기 위한 제안을 해주세요
+3. Filming Preparation
+   - Suggest necessary equipment and locations.
+   - Suggest talent and filming schedules.
 
-4. 팀 교육
-   - 고객 응대 담당자들에게 새로운 매뉴얼과 도구 사용법을 교육하기 위한 자료를 작성하세요
-   - 정기적인 교육을 통해 응대 품질을 유지할 수 있도록 설계하세요.
+4. Video Filming
+   - Write a storyboard for filming.
+   - Create a checklist for filming quality, including lighting and sound.
 
-## R: 결과물
-- [업데이트된 FAQ]:
-  - 주요 문의 유형에 대한 상세한 답변 포함
-  - 검색 기능 강화하여 사용자가 쉽게 찾을 수 있도록 함
-- [응대 매뉴얼]:
-  - 문의 유형별 응대 절차와 템플릿 포함
-  - 매뉴얼을 노션 페이지 형식으로 배포를 위한 마크다운 형식
-- [챗봇 응답 스크립트]:
-  - 자주 묻는 질문에 대한 자동 응답 스크립트 작성
+## R: Deliverables
+- [Three educational video plan documents]:
+  - Topic-divided videos (e.g., company culture, work processes, team collaboration)
+  - Resolution: [1080p]
+  - Format: [MP4]
+- [Storyboard and script]:
+  - Storyboard and script for each video
 
-## T: 톤과 스타일
-- 어조: 친절하고 신속한 어조
-- 스타일: 명확하고 간결한 문장, 고객 중심의 응대 방식
-- 대상 독자: 고객, 고객 지원 팀원
+## T: Tone and Style
+- Tone: Friendly and educational
+- Style: Emphasize visual elements, dynamic style, and clear explanations and examples
+- Target Audience: New employees, training officers
+```
+---
+## Program Operation Assistant - Customer Service and Inquiry Response
+
+Prompt for customer service and inquiry response for program operation assistant
+
+### Tips for Writing Prompts
+
+- Situation: Describe the current customer service situation and the types of inquiries being received.
+- Goal: Set specific goals for effective customer service and inquiry response.
+- Execution Plan: Outline the step-by-step plan for customer service.
+- Deliverables: Clearly specify the desired format or form of the response.
+- Tone and Style: Use a friendly and prompt tone suitable for customer service.
+
+### Example Prompt
+
+```markdown
+## S: Situation
+- [You] are a [program operation assistant], currently receiving customer inquiries on the [online education platform].
+- The majority of inquiries are related to [membership registration, payment issues, course accessibility], and there has been a significant increase in inquiries due to recent user growth, necessitating prompt and accurate responses.
+- The existing FAQ does not provide sufficient answers to some inquiries.
+
+## M: Goal
+- [Reduce the response time to customer inquiries to an average of 24 hours or less].
+- [Achieve a resolution rate of 95% or higher] to increase customer satisfaction.
+- [Update the FAQ] to reduce repetitive inquiries.
+
+## A: Execution Plan
+- Important: After each step, the user should confirm the generated deliverables and decide whether to proceed to the next step.
+
+1. Inquiry Type Analysis
+   - Analyze customer inquiry data from the past three months to identify key inquiry types.
+   - Reconstruct the FAQ focusing on frequent inquiry points.
+
+2. Response Manual Writing
+   - Write standard response procedures for each inquiry type.
+   - Prepare response templates to maintain consistency in responses.
+
+3. Automation Tool Introduction
+   - Design an automated scenario response for basic inquiries using chatbots.
+   - Suggest the introduction of AI-based customer support tools to increase efficiency.
+
+4. Team Training
+   - Prepare training materials for customer service representatives on the new manual and tool usage.
+   - Design regular training to maintain response quality.
+
+## R: Deliverables
+- [Updated FAQ]:
+  - Includes detailed answers to key inquiry types
+  - Enhanced search functionality for easy access
+- [Response Manual]:
+  - Includes response procedures and templates for each inquiry type
+  - Distributed in markdown format for easy sharing
+- [Chatbot Response Script]:
+  - Automated response script for frequently asked questions
+
+## T: Tone and Style
+- Tone: Friendly and prompt
+- Style: Clear and concise language, customer-centric response approach
+- Target Audience: Customers, customer support team members
 ```
