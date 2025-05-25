@@ -436,84 +436,84 @@ Thank you.
 [Author's Name or Team Name]
 ```
 ```markdown
-# 모두의AI 미팅록
+# Everyone's AI Meeting Minutes
 
-## 날짜
-일시: 2025년 4월 1일 12:00~13:30
-장소: 모두의AI 미팅룸 
+## Date
+Date: April 1, 2025, 12:00~13:30
+Location: Everyone's AI Meeting Room
 
-## 미팅 참석자
-- 김진우 (사무국장)
-- 이서연 (운영팀 팀장)
-- 박성호 (기획팀 매니저)
+## Meeting Attendees
+- Jinwoo Kim (Secretary General)
+- Seoyeon Lee (Operations Team Leader)
+- Seongho Park (Planning Team Manager)
 
 ---
 
-## :speaking_head: 가상 회의 대화 (약 12분 분량)
+## :speaking_head: Virtual Meeting Conversation (Approx. 12 minutes)
 
-김진우:  
-좋아요, 그럼 회의 시작하겠습니다. 오늘은 다음 분기 주요 일정과 신규 회원사 onboarding 방식 개선에 대해 논의할게요. 먼저 다음 분기 일정 간단히 정리해 주시겠어요, 서연 팀장님?
+Jinwoo Kim:
+Alright, let's start the meeting. Today, we'll discuss the main schedule for the next quarter and improvements to the onboarding process for new member companies. First, could you briefly summarize the next quarter's schedule, Team Leader Seoyeon?
 
-이서연:  
-네. 우선 4월 말에 예정된 스타트업 정책 간담회가 가장 중요하고요, 5월 중순에는 회원사 네트워킹 데이, 그리고 6월엔 상반기 정기 포럼이 예정돼 있습니다. 특히 정책 간담회는 중기부 쪽과도 일정 조율 중이라 세부 프로그램 확정이 시급해요.
+Seoyeon Lee:
+Yes. First, the startup policy meeting scheduled for the end of April is the most important, followed by the member company networking day in mid-May, and the semi-annual forum in June. Especially for the policy meeting, we're coordinating the schedule with the Ministry of SMEs and Startups, so finalizing the detailed program is urgent.
 
-김진우:  
-그 부분 저도 중기부랑 얘기해보니까, 다음 주 초까지는 프로그램 안을 전달해줘야 한다고 하더라고요. 성호 매니저, 기획팀 쪽에서 내용 준비 어떻게 되고 있나요?
+Jinwoo Kim:
+I also talked to the Ministry of SMEs and Startups, and they said we need to deliver the program proposal by early next week. Manager Seongho, how is the planning team preparing the content?
 
-박성호:  
-현재 1차 안은 정리돼 있고, 정책 이슈별로 스타트업 입장 정리 중입니다. 다만 산업별 의견을 취합하는 데 시간이 좀 걸리고 있어서요. 이번 주 금요일까지는 전체 안 공유드릴 수 있을 것 같아요.
+Seongho Park:
+The first draft is ready, and we're organizing the startup positions by policy issue. However, it's taking some time to gather opinions by industry, so I think we can share the entire draft by this Friday.
 
-이서연:  
-네, 그러면 저희 운영팀에서 회원사 대상 의견 수렴 설문을 내일 바로 돌리겠습니다. 빠르게 회수해서 금요일 오전까지 기획팀 쪽에 전달드릴게요.
+Seoyeon Lee:
+Alright, then our operations team will immediately conduct a survey to gather opinions from member companies and deliver it to the planning team by Friday morning.
 
-김진우:  
-좋습니다. 혹시 이번 간담회 때 스타트업 생태계에 대한 통계 자료 같은 것도 같이 제시하면 어떨까요? 작년 대비 성장 지표나 투자 흐름 같은 것들이요.
+Jinwoo Kim:
+Sounds good. How about presenting statistics on the startup ecosystem at this meeting? Like growth indicators and investment trends compared to last year.
 
-박성호:  
-좋은 생각입니다. 저희가 기존 보유 데이터 외에도 KDB나 코스포 조사 자료 활용해서 간단한 인포그래픽 형태로 준비해볼게요. 발표자료에 포함하면 설득력도 있을 것 같습니다.
+Seongho Park:
+That's a good idea. We'll prepare a simple infographic using existing data and research from KDB and KOSPO. Including it in the presentation will add persuasiveness.
 
-이서연:  
-네, 시각자료는 운영팀 쪽 디자이너랑도 협의해서 디자인 부분 도와드릴게요. 정책 간담회 전에 예비 리허설도 한 번 잡는 게 좋겠네요.
+Seoyeon Lee:
+Yes, we'll collaborate with the designer from the operations team to assist with the design part. It would be good to schedule a rehearsal before the policy meeting.
 
-김진우:  
-그럼 리허설은 간담회 2일 전, 4월 24일 오후 3시로 잡아두죠. 참석자들과 발표자 확인해서 캘린더에 공유드릴게요.
+Jinwoo Kim:
+Let's schedule the rehearsal for two days before the meeting, on April 24th at 3 PM. I'll confirm the attendees and presenters and share it on the calendar.
 
-이서연:  
-확인했습니다. 간담회는 이렇게 정리하고, 다음 안건인 신규 회원사 온보딩 이야기로 넘어갈게요. 요즘 신규 가입 수가 많아지면서 기존 대응 방식으론 부족하다는 내부 피드백이 있었습니다.
+Seoyeon Lee:
+Got it. Let's wrap up the policy meeting and move on to the next agenda item, the onboarding of new member companies. We've received internal feedback that the current response method is insufficient as the number of new sign-ups increases.
 
-박성호:  
-네, 특히 초기 커뮤니케이션이 느리다는 얘기가 자주 나왔어요. 가입하고 며칠 지나도 안내가 없다는 문의도 있고요.
+Seongho Park:
+Yes, especially the initial communication is often slow. There are inquiries about not receiving guidance even after a few days of joining.
 
-이서연:  
-그래서 이번에 제안드리고 싶은 건 크게 두 가지인데요. 첫째는 격주 정기 온라인 온보딩 세션을 정례화하고, 둘째는 웰컴킷을 디지털 콘텐츠 형태로 구성하는 겁니다. 기존 종이 안내문 중심에서 벗어나 영상, 웹 가이드, 챗봇 연결까지 고려 중입니다.
+Seoyeon Lee:
+So, I'd like to propose two main things this time. First, regular online onboarding sessions every other week, and second, composing the welcome kit in digital content form. We're considering moving away from paper-based guides to videos, web guides, and chatbot connections.
 
-김진우:  
-좋네요. 특히 온보딩 세션은 Q&A 시간도 포함되면 좋을 것 같아요. 예전에는 개별 응대만 했는데, 한꺼번에 공통 질문을 정리해서 답해주는 방식이 훨씬 효율적일 수 있어요.
+Jinwoo Kim:
+Sounds good. Especially for the onboarding session, it would be nice to include a Q&A session. Previously, we only responded individually, but summarizing common questions and answering them all at once could be much more efficient.
 
-박성호:  
-저희 기획팀에서 온보딩 세션 자료 준비는 도와드릴게요. 발표 형식보단 대화형 구성으로 만들어서 대표님들이 지루하지 않게 하는 방향이 좋겠습니다.
+Seongho Park:
+Our planning team will assist with preparing the onboarding session materials. It would be better to create a conversational format rather than a presentation format to keep the representatives from getting bored.
 
-이서연:  
-좋습니다. 영상 콘텐츠는 각 팀장들이 1분 내외로 팀 소개 및 활용 팁을 공유하는 형식으로 촬영해볼게요. 짧고 핵심 있게.
+Seoyeon Lee:
+Great. For the video content, we'll shoot it in a format where each team leader shares team introductions and tips in under a minute. Short and to the point.
 
-김진우:  
-실무 가이드는 PDF와 웹 버전 둘 다 만들고, 자주 묻는 질문 FAQ도 업데이트하면 좋겠네요. 또 웰컴 메일도 기존보다 더 친근한 어투로 수정하는 게 필요할 것 같고요.
+Jinwoo Kim:
+Let's create both PDF and web versions of the practical guide, and update the FAQ for frequently asked questions. Also, it seems necessary to revise the welcome email to a more friendly tone than before.
 
-박성호:  
-그리고 마지막으로 하나 더 제안드리고 싶은 게 있습니다. 신규 회원사가 초기 3개월 동안 정기적으로 활용 현황 체크하는 방식이에요. 예를 들어 한 달에 한 번 정도 운영팀에서 간단한 컨택을 통해 어떤 리소스를 활용했는지, 필요한 점이 있는지를 점검하는 거죠.
+Seongho Park:
+Lastly, I'd like to propose one more thing. A method to regularly check the utilization status of new member companies during the initial three months. For example, once a month, the operations team could make a simple contact to check what resources have been used and if there are any needs.
 
-이서연:  
-그거 정말 필요했던 부분이에요. 단순히 가입만 유도하는 게 아니라, 실제로 잘 정착하고 있는지 보는 구조가 있어야 지속적인 참여가 되니까요. 운영팀 쪽에서 그 프로세스 설계해보겠습니다.
+Seoyeon Lee:
+That's a really needed part. It's important to have a structure that not only encourages sign-ups but also ensures they are well settled, so continuous participation is possible. The operations team will design that process.
 
-김진우:  
-네, 아주 좋아요. 오늘 논의된 내용들 토대로 액션 아이템 정리해서 오늘 중으로 공유드릴게요. 다음 회의는 2주 뒤 수요일, 오전 10시로 하고, 특별히 요청사항 있으시면 중간에 비공식 미팅도 가능합니다.
+Jinwoo Kim:
+Yes, very good. I'll organize the action items based on today's discussion and share them with you by the end of the day. The next meeting will be two weeks from now, on Wednesday at 10 AM, and if there are any special requests, informal meetings are also possible in between.
 
-이서연:  
-네, 일정 캘린더에 등록해둘게요. 수고 많으셨습니다!
+Seoyeon Lee:
+Yes, I'll register the schedule on the calendar. Thank you for your hard work!
 
-박성호:  
-다들 고생 많으셨습니다. 자료 정리되면 금요일 오전까지 전달드릴게요!
-```
+Seongho Park:
+Thank you all for your hard work. I'll deliver the organized materials by Friday morning!
+
 ---
 ## Office Planning and Business Management - Project Management
 
